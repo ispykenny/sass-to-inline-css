@@ -1,0 +1,69 @@
+.title {
+  width: 180px;
+  color: white; }
+
+.inBrowser {
+  width: 120px; }
+
+.nav {
+  background: #B09762; }
+  .nav .gap {
+    width: 300px; }
+  .nav a {
+    color: white; }
+
+.nav-gutter {
+  width: 20px; }
+
+.nav-height {
+  height: 20px; }
+  .nav-height td {
+    height: 20px; }
+
+body {
+  margin: 0;
+  background-color: #eaecf3;
+  color: #343434; }
+
+table {
+  border-spacing: 0px;
+  border-color: transparent;
+  border: none;
+  border: 0px;
+  border-collapse: collapse;
+  vertical-align: bottom;
+  margin: 0; }
+
+td {
+  margin: 0;
+  border-spacing: 0px;
+  border-color: transparent;
+  border: none;
+  border: 0px;
+  border-collapse: collapse;
+  vertical-align: bottom; }
+
+td img {
+  display: block; }
+
+.is-parent-wrapper {
+  background: white; }
+
+.outer-container {
+  width: 600px; }
+
+.body-gutter {
+  width: 50px; }
+
+.inner-container {
+  width: 500px; }
+  .inner-container h1 {
+    color: #343434;
+    text-transform: uppercase; }
+  .inner-container p {
+    line-height: 28px; }
+
+.spacer {
+  height: 40px; }
+  .spacer td {
+    height: 40px; }

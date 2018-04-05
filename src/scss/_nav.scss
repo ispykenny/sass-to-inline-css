@@ -1,0 +1,31 @@
+.title {
+	width: 180px;
+	color: white;
+}
+.inBrowser {
+	width: 120px;
+}
+
+.nav {
+	background: #B09762;
+
+	.gap {
+		width: 340 - 40px;
+	}
+
+	a {
+		color: white;
+	}
+}
+
+.nav-gutter {
+	width: $gutterSmall;
+}
+
+.nav-height {
+	height: 20px;
+
+	td {
+		height: 20px;
+	}
+}
