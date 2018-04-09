@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const inlineCss = require('gulp-inline-css');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
+const plumber = require('gulp-plumber');
 
 gulp.task('serve', () => {
 	browserSync.init({
@@ -12,6 +13,7 @@ gulp.task('serve', () => {
 
 gulp.task('scss', () => {
 	gulp.src('src/scss/**/*.scss')
+	.pipe(plumber())
 	.pipe(sass())
 	.pipe(gulp.dest('build/css/'))
 	.pipe(browserSync.stream())
